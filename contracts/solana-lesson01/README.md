@@ -16,7 +16,7 @@ This command compiles your Rust program into a BPF (Berkeley Packet Filter) byte
 
 ## Deploying the Program
 
-1. Once the build process is complete, deploy the program to the Solana blockchain using the Solana CLI. You'll need to replace `<PATH>` with the actual path to the compiled `.so` file located under `/target/build` directory.
+1. Once the build process is complete, deploy the program to the Solana blockchain using the Solana CLI. You'll need to replace `<PATH>` with the actual path to the compiled `.so` file located under `/target/deploy` directory.
 
 ```bash
 solana program deploy <PATH>
